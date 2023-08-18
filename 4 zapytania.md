@@ -54,3 +54,16 @@ ORDER BY NAZWISKO;
 ![image](https://github.com/BartekRz1/Sklep/assets/131479846/7d3c0a94-b45f-4ce9-88ab-4e8eb35191db)
 
 
+4 Polecenie
+
+Uporządkowane zestawienie prezentujące liczącą sumę ceny zakupu dla każdej z grup produktów, których cena przekracza 5.
+
+````
+SELECT SUM(CENA_ZAKUPU) SUMA_ZAKUPU, PELNA_NAZWA FROM PRODUKTY P
+INNER JOIN TYPY_PRODOKTOW TP
+ON p.typ_produktu = tp.typ_produktu
+GROUP BY TP.PELNA_NAZWA
+HAVING SUM(CENA_ZAKUPU) > 5
+````
+
+![image](https://github.com/BartekRz1/Sklep/assets/131479846/51d3e9d7-f623-4da1-9090-cc12ed9c5329)
