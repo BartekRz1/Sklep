@@ -84,3 +84,53 @@ INSERT INTO Produkty (id_produktu, nazwa_poduktu, typ_produktu, cena_sprzedazy, 
 SELECT * FROM PRODUKTY
 
 ![image](https://github.com/BartekRz1/Sklep/assets/131479846/bae6f0fb-9efa-4030-a80f-cf83bb438882)
+
+
+PRACOWNICY
+
+````
+INSERT INTO pracownicy (id, imie, nazwisko, pesel, plec, data_ur, pensja)
+VALUES
+(1, 'Jan', 'Kowalski', '12345678901', 'M', TO_DATE('2000-01-01', 'YYYY-MM-DD'), 5000);
+
+INSERT INTO pracownicy (id, imie, nazwisko, pesel, plec, data_ur, pensja)
+VALUES
+(2, 'Anna', 'Nowak', '23456789012', 'K', TO_DATE('1995-05-15', 'YYYY-MM-DD'), 4500);
+
+INSERT INTO pracownicy (id, imie, nazwisko, pesel, plec, data_ur, pensja)
+VALUES
+(3, 'Piotr', 'Wójcik', '34567890123', 'M', TO_DATE('1988-10-20', 'YYYY-MM-DD'), 6000);
+
+INSERT INTO pracownicy (id, imie, nazwisko, pesel, plec, data_ur, pensja)
+VALUES
+(4, 'Aleksandra', 'Kaczmarek', '45678901234', 'K', TO_DATE('1992-03-28', 'YYYY-MM-DD'), 4800);
+
+INSERT INTO pracownicy (id, imie, nazwisko, pesel, plec, data_ur, pensja)
+VALUES
+(5, 'Michał', 'Lewandowski', '56789012345', 'M', TO_DATE('1985-12-10', 'YYYY-MM-DD'), 5500);
+
+INSERT INTO pracownicy (id, imie, nazwisko, pesel, plec, data_ur, pensja)
+VALUES
+(6, 'Magdalena', 'Zielińska', '67890123456', 'K', TO_DATE('2001-08-05', 'YYYY-MM-DD'), 4200);
+
+INSERT INTO pracownicy (id, imie, nazwisko, pesel, plec, data_ur, pensja)
+VALUES
+(7, 'Krzysztof', 'Sikora', '78901234567', 'M', TO_DATE('1994-06-22', 'YYYY-MM-DD'), 5800);
+
+INSERT INTO pracownicy (id, imie, nazwisko, pesel, plec, data_ur, pensja)
+VALUES
+(8, 'Monika', 'Witkowska', '89012345678', 'K', TO_DATE('1989-09-17', 'YYYY-MM-DD'), 5200);
+
+INSERT INTO pracownicy (id, imie, nazwisko, pesel, plec, data_ur, pensja)
+VALUES
+(9, 'Grzegorz', 'Jaworski', '90123456789', 'M', TO_DATE('1978-04-12', 'YYYY-MM-DD'), 6000);
+
+INSERT INTO pracownicy (id, imie, nazwisko, pesel, plec, data_ur, pensja)
+VALUES
+(10, 'Marlena', 'Krawczyk', '01234567890', 'K', TO_DATE('1993-11-03', 'YYYY-MM-DD'), 4700);
+````
+
+SELECT * FROM PRACOWNICY
+
+![image](https://github.com/BartekRz1/Sklep/assets/131479846/dd8c759c-82dc-4995-9556-5e0bc74975fe)
+
