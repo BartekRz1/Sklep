@@ -36,6 +36,11 @@ ADD CONSTRAINT FK_TYP_PRODUKTU FOREIGN KEY(TYP_PRODUKTU)
 REFERENCES TYPY_PRODOKTOW(TYP_PRODUKTU);
 ````
 
+![image](https://github.com/BartekRz1/Sklep/assets/131479846/c4d215ce-8902-444f-be90-3d2f0cf16a6b)
+![image](https://github.com/BartekRz1/Sklep/assets/131479846/65f2cb06-c946-4a44-842e-c437efccc159)
+![image](https://github.com/BartekRz1/Sklep/assets/131479846/1ac8ce46-8a04-4bf9-a1c7-8c58f8c60b89)
+
+
 STWORZENIE NOWEJ TABELI Z JUŻ ISTNIEJĄCYMI CONSTRAINTAMI
 
 ````
@@ -47,3 +52,7 @@ RABAT NUMBER,
 OKRES_WAZNOSCI VARCHAR2(1) CHECK(OKRES_WAZNOSCI IN ('K', 'D'))
 );
 ````
+
+
+![image](https://github.com/BartekRz1/Sklep/assets/131479846/8ce92ae4-b2c2-4b76-aeb5-be9cb46406a1)
+
