@@ -56,7 +56,7 @@ ORDER BY NAZWISKO;
 
 4 Polecenie
 
-Uporządkowane zestawienie prezentujące liczącą sumę ceny zakupu dla każdej z grup produktów, których cena przekracza 5.
+Uporządkowane zestawienie prezentujące sumę ceny zakupu dla każdej z grup produktów, których cena przekracza 5.
 
 ````
 SELECT SUM(CENA_ZAKUPU) SUMA_ZAKUPU, PELNA_NAZWA FROM PRODUKTY P
